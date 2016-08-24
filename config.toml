@@ -4,7 +4,7 @@ title = "Tengio | We love Open Source"
 
 [params]
   name = "Luigi Agosti, Akshay Dashrath"
-  description = "Tengio."
+  description = "Tengio’s Open Source our small contribution to the development community."
   analytics = "UA-67184502-2"
 
   [params.projects]
@@ -13,9 +13,11 @@ title = "Tengio | We love Open Source"
     [[params.projects.list]]
        link = "https://github.com/Tengio/cpn"
        title = "CPN"
+       type = "Java"
        description = "This is a small library that wraps Google Cloud Messaging and add support for in app notification."
 
     [[params.projects.list]]
        link = "https://github.com/Tengio/tengio.com"
-       title = "tengio.com"
+       title = "TENGIO.COM"
+       type = "Hugo"
        description = "Tengio company website. A clean, simple and flexible website using hugo static generator engine."

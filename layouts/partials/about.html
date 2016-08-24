@@ -1,63 +1,24 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.about.headline }}{{ . }}{{ end }}</h2>
-                <hr class="primary">
-                <p>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
-            </div>
+<footer>
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-sm-12 col-lg-8 col-md-8 col-md-offset-2 col-lg-offset-2">
+            <a class="button button-top" data-scroll="" href="#"></a>
         </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="row">
-            {{ range .Site.Params.about.list }}
-            <div class="col-lg-6 text-center">
-                <div class="about-box">
-                    <a href="{{ .link }}" target="_blank">
-                      <img class="rounded" src="img/authors/{{ .image }}" />
-                    </a>
-                    <h3>{{ .name }}</h3>
-                </div>
-            </div>
-            {{ end }}
+    <div class="container footer-content">
+      <div class="row">
+        <div class="col-sm-12 col-lg-8 col-md-8 col-md-offset-2 col-lg-offset-2">
         </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>{{ with .Site.Params.about.about1 }}{{ . | markdownify }}{{ end }}</p>
-            </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="row">
+        <div class="col-sm-12 col-lg-8 col-md-8 col-md-offset-2 col-lg-offset-2">
+          <p>Copyright ©<script>document.write(new Date().getFullYear())</script> Tengio Limited. All Rights Reserved</p>
         </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-              <br />
-              <h3 class="section-heading">{{ with .Site.Params.about.aboutTitle }}{{ . }}{{ end }}</h3>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>{{ with .Site.Params.about.about2 }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-              <br />
-              <h3 class="section-heading">{{ with .Site.Params.about.storyTitle }}{{ . }}{{ end }}</h3>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>{{ with .Site.Params.about.story1 }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-        </div>
-    </div>
-</section>
+</footer>
