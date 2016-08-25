@@ -16,6 +16,21 @@ We use the following open source tools:
 
 Please make sure to understand and respect the corresponding licenses if you reuse this code.
 
+Update process
+--------------
+
+Github pages required to have all the content in the root of master branch. As we are using hugo which generate the website into the public folder we are using subtree to solve this issue.
+
+Do changes on develop branch. Commit them and once ready to update the website switch to master branch and do:
+```
+git merge develop
+hugo -s .
+```
+Then commit changes of the public folder and push them to master using substree command:
+```
+git subtree push --prefix public origin master
+```
+
 License
 -------
 
