@@ -13,11 +13,54 @@ title = "Tengio | We love Open Source"
     [[params.projects.list]]
        link = "https://github.com/Tengio/cpn"
        title = "CPN"
-       type = "Java"
-       description = "This is a small library that wraps Google Cloud Messaging and adds support for in-app notification."
+       type = "Android"
+       description = "Library that wraps Google Cloud Messaging and adds support for in-app notification."
 
     [[params.projects.list]]
        link = "https://github.com/Tengio/tengio.com"
        title = "TENGIO.COM"
        type = "Hugo"
        description = "Tengio company website. A clean, simple and flexible website using hugo static generator engine."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/location"
+       title = "Location"
+       type = "Android"
+       description = "Android library to easily integrate Google play services to get callbacks for the latitude and longitude changes"
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/android-graffiti"
+       title = "Android Graffiti"
+       type = "Android"
+       description = "Fresco Postprocessors to draw on text and lines on images."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/android-chips"
+       title = "Android Chips"
+       type = "Android"
+       description = "Basic material chips implementation. In early development, interfaces, names and behaviour may change considerably."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/android-fresco-zoomable"
+       title = "Android Fresco Zoomable"
+       type = "Android"
+       description = "Library of classes form the Facebook's Fresco Zoomable Sample app so that is easy to reuse the code."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/tengio-checkstyle-plugin"
+       title = "Tengio Checkstyle plugin"
+       type = "Gradle"
+       description = "Gradle plugin to abstract checkstyle configuration."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/tengio-bintray-script"
+       title = "Tengio bintray Script"
+       type = "Gradle"
+       description = "Script that simplify the bintray configuration for android libraries."
+      
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/tengio-bintray-script"
+       title = "flutter-demo"
+       type = "Flutter"
+       description = "Books list demo project with Flutter."
+    
