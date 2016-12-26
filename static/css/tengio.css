@@ -36,6 +36,7 @@ a {
 a:hover,
 a:focus {
     color: #FC7800;
+    text-decoration: none;
 }
 
 #about a {
@@ -572,4 +573,74 @@ footer {
    font-weight: 700;
    text-decoration: none !important;
    color: #000000;
+}
+
+.alternative-row-background {
+  background: #fafafa;
+}
+
+.box-container {
+  background-color: white;
+  box-shadow: 0;
+  -moz-box-shadow: 0;
+  -webkit-box-shadow: 0;
+  -webkit-transition: box-shadow .3s;
+  -moz-transition: box-shadow .3s;
+  transition: box-shadow .3s;
+  height: 230px;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.box-container:hover {
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.45);
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.45);
+}
+
+.box-link:hover,
+.box-link,
+.box-link:visited,
+.box-link:active {
+  color: black;
+}
+
+.box-header {
+  background-color: #f36618;
+  color: #fff;
+  padding: 8px;
+  height: 70px;
+}
+
+.box-container h2 {
+  margin-top: 8px;
+  padding-top: 0px;
+  font-size: 22px;
+}
+
+.box-content {
+  padding: 8px;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.box-description p {
+  line-height: 1.4;
+  color: #555;
+  padding:8px;
+}
+
+.box-type {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  text-transform: uppercase; 
+  font-size: 14px;
+}
+
+@media(max-width:780px) {
+    .box-container {
+      height: auto;
+      min-height: 200px;
+   }
 }

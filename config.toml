@@ -11,24 +11,6 @@ title = "Tengio | We love Open Source"
       headline = "projects & demos"
 
     [[params.projects.list]]
-       link = "https://github.com/Tengio/cpn"
-       title = "CPN"
-       type = "Android"
-       description = "Library that wraps Google Cloud Messaging and adds support for in-app notification."
-
-    [[params.projects.list]]
-       link = "https://github.com/Tengio/tengio.com"
-       title = "TENGIO.COM"
-       type = "Hugo"
-       description = "Tengio company website. A clean, simple and flexible website using hugo static generator engine."
-
-    [[params.projects.list]]
-       link = "https://github.com/Tengio/location"
-       title = "Location"
-       type = "Android"
-       description = "Android library to easily integrate Google play services to get callbacks for the latitude and longitude changes"
-
-    [[params.projects.list]]
        link = "https://github.com/Tengio/android-graffiti"
        title = "Android Graffiti"
        type = "Android"
@@ -57,10 +39,28 @@ title = "Tengio | We love Open Source"
        title = "Tengio bintray Script"
        type = "Gradle"
        description = "Script that simplify the bintray configuration for android libraries."
-      
+
     [[params.projects.list]]
-       link = "https://github.com/Tengio/tengio-bintray-script"
-       title = "flutter-demo"
+       link = "https://github.com/Tengio/flutter-demo"
+       title = "Flutter demo"
        type = "Flutter"
        description = "Books list demo project with Flutter."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/cpn"
+       title = "CPN"
+       type = "Android"
+       description = "Library that wraps Google Cloud Messaging and adds support for in-app notification."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/tengio.com"
+       title = "tengio.com"
+       type = "Hugo"
+       description = "Tengio company website. A clean, simple and flexible website using hugo static generator engine."
+
+    [[params.projects.list]]
+       link = "https://github.com/Tengio/location"
+       title = "Location"
+       type = "Android"
+       description = "Android library to easily integrate Google play services to get callbacks for the latitude and longitude changes"
     

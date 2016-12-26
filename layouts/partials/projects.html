@@ -1,5 +1,5 @@
 {{ "<!-- PORTFOLIO -->" | safeHTML }}
-<section id="projects">
+<section id="projects" class="alternative-row-background">
     <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -9,17 +9,24 @@
         </div>
     </div>
     <div class="container">
-        {{ range .Site.Params.projects.list }}
         <div class="row">
-            <div class="col-sm-12 col-lg-8 col-md-8 col-md-offset-2 col-lg-offset-2">
-                <div class="portfolio-box">
-                   {{ if ne .link "" }}
-                      <a href="{{ .link }}" target="_blank">{{ .title }}</a> <span class="project-type">{{ .type}}</span>
-                      <p>{{ .description }}</a>
-                   {{ end }}
+            <div class="col-xm-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                <div class="row">
+                    {{ range .Site.Params.projects.list }}
+                    <a href="{{ .link }}" target="_blank">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                            <div class="box-container">
+                                <div class="box-item">
+                                    <div class="box-header">{{ .title }}</div>
+                                    <div class="box-description"><p>{{ .description }}</div>
+                                    <div class="box-type">{{ .type}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>    
+                    {{ end }}
                 </div>
             </div>
         </div>
-        {{ end }}
     </div>
 </section>
