@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://tengio.gihub.io/</loc>
-    <priority>0</priority>
-  </url>
-  
+    <url>
+        <loc>https://tengio.github.io/</loc>
+        <lastmod>2017-01-30T17:40:27+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0</priority>
+    </url>
 </urlset>
